@@ -14,15 +14,15 @@ const goToHome = () => {
 
 <template>
   <nav>
-    <div id="topbar">
+    <div id="topbar" class="cSpacing">
       <div>
         <h1 @click="goToHome">Timeless Trims</h1>
       </div>
       <div id="rightSide">
         <RouterLink to="/"><p class="route">Home</p></RouterLink>
         <RouterLink to="/services"><p class="route">Services</p></RouterLink>
-        <RouterLink to="/barbers"><p class="route">Barbers</p></RouterLink>
-        <RouterLink to="/contact"><p class="route">Contact</p></RouterLink>
+        <RouterLink to="/barbers"><p class="route">Our Barbers</p></RouterLink>
+        <RouterLink to="/contact"><p class="route">Contact Us</p></RouterLink>
         <button id="book" @click="goToBook">Book Now</button>
       </div>
     </div>
@@ -35,9 +35,6 @@ const goToHome = () => {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: min(90vw, 1472px);
 }
 
 #rightSide {

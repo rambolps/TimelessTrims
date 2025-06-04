@@ -19,3 +19,9 @@ body {
   padding: 0 !important;
   margin: 0 !important;
 }
+
+.cSpacing {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: min(90vw, 1472px);
+}
