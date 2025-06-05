@@ -49,7 +49,7 @@ const goToHome = () => {
   background-color: #ff9c07;
   font-weight: 600;
   border: none;
-  padding: 0.6rem 1.5rem;
+  padding: 0.8rem 1.5rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;

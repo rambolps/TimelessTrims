@@ -20,21 +20,21 @@ const goToBarbers = () => {
 const services = ref([
   {
     id: 0,
-    pic: 'https://placehold.co/600x400/94A3B8/FFFFFF?text=Classic+Haircut',
+    pic: 'https://188brookhaven.com/wp-content/uploads/2019/11/pasted-image-0-1.png',
     title: 'Classic Haircut',
     description: 'A timeless cut tailored to your style, includes wash and style.',
     price: '45',
   },
   {
     id: 1,
-    pic: 'https://placehold.co/600x400/94A3B8/FFFFFF?text=Beard+Trim',
+    pic: 'https://www.hudsonhawk.com/wp-content/uploads/2024/06/Portrait-of-man-having-his-beard-trimmed-scaled.jpg',
     title: 'Beard Trim',
     description: 'A precise beard trim and edge shaping with hot towel finish.',
     price: '25',
   },
   {
     id: 2,
-    pic: 'https://placehold.co/600x400/94A3B8/FFFFFF?text=Hot+Towel+Shave',
+    pic: 'https://hairsalonbarrie.ca/wp-content/uploads/2021/09/Hot-Towel-Shave.jpg',
     title: 'Hot Towel Shave',
     description: 'A luxurious traditional shave with hot towels and premium products.',
     price: '60',
@@ -71,7 +71,7 @@ const services = ref([
         <div id="wRight">
           <img
             class="dShadow"
-            src="https://placehold.co/600x400/E2E8F0/334155?text=Welcoming+Shop+Interior"
+            src="https://png.pngtree.com/thumb_back/fh260/background/20230612/pngtree-some-pictures-of-an-antique-barber-shop-image_2906288.jpg"
           />
         </div>
       </div>
@@ -96,7 +96,7 @@ const services = ref([
         <div id="tLeft">
           <img
             class="dShadow"
-            src="https://placehold.co/600x400/E2E8F0/334155?text=Welcoming+Shop+Interior"
+            src="https://static.showit.co/800/JtaXEKZcSemCofJiJFAVVA/219521/hair_on_2nd_avenue_haircuts_for_men.jpg"
           />
         </div>
         <div id="tRight">

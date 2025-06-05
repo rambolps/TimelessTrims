@@ -13,7 +13,7 @@ const goToBook = () => {
 const barbers = ref([
   {
     id: 0,
-    pic: 'https://placehold.co/400x400/475569/FFFFFF?text=Alex+J.',
+    pic: 'https://cdn.shopify.com/s/files/1/0013/3536/1603/files/Barber_Leaning_On_Barber_Chair.jpg?v=1661358030',
     job: 'Master Barber',
     title: "Alex 'The Sharpenator' Johnson",
     description:
@@ -22,7 +22,7 @@ const barbers = ref([
   },
   {
     id: 1,
-    pic: 'https://placehold.co/400x400/475569/FFFFFF?text=Sarah+M.',
+    pic: 'https://images.squarespace-cdn.com/content/v1/57065ff84d088e7900c2f3f0/1464897378554-KFK07O095EBUS7N9H9E9/Ottawa-Headshot--12.jpg',
     job: 'Senior Barber',
     title: "Sarah 'The Stylist' Miller",
     description:
@@ -31,7 +31,7 @@ const barbers = ref([
   },
   {
     id: 2,
-    pic: 'https://placehold.co/400x400/475569/FFFFFF?text=David+C.',
+    pic: 'https://media.istockphoto.com/id/623477902/photo/man-gets-a-haircut-at-his-barber.jpg?s=612x612&w=0&k=20&c=Gxrsli5A3O5g2ptwsWwca3I39UP-KtexqoGXGYsgyhY=',
     job: 'Barber',
     title: "David 'The Detailer' Chen",
     description:

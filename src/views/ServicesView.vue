@@ -13,7 +13,7 @@ const goToBook = () => {
 const haircuts = ref([
   {
     id: 0,
-    pic: 'https://placehold.co/300x200/94A3B8/FFFFFF?text=Executive+Cut',
+    pic: 'https://static.wixstatic.com/media/b648e0_ec1c03b087a745d0a23dd9c33b000209~mv2.jpg/v1/fill/w_640,h_456,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/b648e0_ec1c03b087a745d0a23dd9c33b000209~mv2.jpg',
     title: 'The Executive Cut',
     description:
       'A tailored haircut including consultation, precision cutting, wash, scalp massage, and styling. Perfect for the modern professional seeking a sharp, refined look.',
@@ -22,7 +22,7 @@ const haircuts = ref([
   },
   {
     id: 1,
-    pic: 'https://placehold.co/300x200/94A3B8/FFFFFF?text=Classic+Cut',
+    pic: 'https://188brookhaven.com/wp-content/uploads/2019/11/pasted-image-0-1.png',
     title: 'Classic Haircut',
     description:
       'A traditional haircut focusing on clean lines and timeless style. Includes cut and basic styling.',
@@ -31,7 +31,7 @@ const haircuts = ref([
   },
   {
     id: 2,
-    pic: 'https://placehold.co/300x200/94A3B8/FFFFFF?text=Modern+Fade',
+    pic: 'https://www.beardbeasts.com/cdn/shop/articles/Mid_Fade_Messy_Top_Featured_Style_Guide_2.png?v=1727520885&width=600',
     title: 'Modern Fade & Style',
     description:
       'Expertly executed fades (low, mid, high, skin fade) combined with modern styling techniques for a sharp, contemporary look.',
@@ -43,7 +43,7 @@ const haircuts = ref([
 const beardcuts = ref([
   {
     id: 3,
-    pic: 'https://placehold.co/300x200/94A3B8/FFFFFF?text=Beard+Sculpt',
+    pic: 'https://cdn.shopify.com/s/files/1/0052/6018/1607/files/shaping-03-1024x576.png?v=1652856839',
     title: 'Deluxe Beard Grooming',
     description:
       'Comprehensive beard care including trimming, shaping, lining with a straight razor, hot towel treatment, and conditioning with premium beard oils/balms.',
@@ -52,7 +52,7 @@ const beardcuts = ref([
   },
   {
     id: 4,
-    pic: 'https://placehold.co/300x200/94A3B8/FFFFFF?text=Beard+Trim+Simple',
+    pic: 'https://www.hudsonhawk.com/wp-content/uploads/2024/06/Portrait-of-man-having-his-beard-trimmed-scaled.jpg',
     title: 'Precision Beard Trim',
     description:
       'Keep your beard looking sharp with a professional trim and line-up. Focuses on shape and neatness.',
@@ -64,7 +64,7 @@ const beardcuts = ref([
 const shaves = ref([
   {
     id: 5,
-    pic: 'https://placehold.co/300x200/94A3B8/FFFFFF?text=Hot+Shave',
+    pic: 'https://hairsalonbarrie.ca/wp-content/uploads/2021/09/Hot-Towel-Shave.jpg',
     title: 'Traditional Hot Towel Shave',
     description:
       'The ultimate shaving experience. Includes pre-shave oils, multiple hot towels, rich lather, a close straight razor shave, and post-shave balm for smooth, refreshed skin.',

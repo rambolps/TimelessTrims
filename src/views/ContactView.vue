@@ -49,7 +49,7 @@
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.0000000000005!2d-75.69400000000001!3d45.42100000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce050f00000001%3A0x1234567890abcdef!2s155%20Metcalfe%20St%2C%20Ottawa%2C%20ON%20K2P%201P4!5e0!3m2!1sen!2sca!4v1678886400000!5m2!1sen!2sca"
                 style="border: 0"
-                allowfullscreen=""
+                allowfullscreen="true"
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
                 title="Google Maps location for Timeless Trims"
