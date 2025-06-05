@@ -94,4 +94,8 @@ p {
 #bottom a:hover {
   color: #e08900;
 }
+
+.route:hover {
+  color: #ff9c07;
+}
 </style>

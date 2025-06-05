@@ -110,10 +110,62 @@ const services = ref([
         </div>
       </div>
     </section>
+
+    <section class="client-section">
+      <div class="client cSpacing">
+        <h2>What Our Clients Say</h2>
+        <div class="cbottom">
+          <div class="cCard dShadow">
+            <p>
+              "Best haircut I've had in Ottawa! David knew exactly what I wanted and the atmosphere
+              was great. Highly recommend Timeless Trims."
+            </p>
+            <h3>- Alex P.</h3>
+          </div>
+          <div class="cCard dShadow">
+            <p>
+              "James always does an amazing job with my beard. The online booking is super
+              convenient too. Will be back!"
+            </p>
+            <h3>- Michael B.</h3>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
 <style scoped>
+.client {
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+  h2 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+}
+.cbottom {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.cCard {
+  background-color: #f1f5f9;
+  padding: 2rem;
+  flex: 1;
+  p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+  h3 {
+    margin-top: auto;
+    font-size: 1.2rem;
+  }
+}
 .team-section {
   background-color: #1e293b;
 }
