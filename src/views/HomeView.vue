@@ -1,5 +1,5 @@
 <script setup>
-import ServiceCard from '@/components/ServiceCard.vue'
+import HServiceCard from '@/components/HServiceCard.vue'
 import { useRouter } from 'vue-router'
 import { ref } from 'vue'
 
@@ -82,8 +82,8 @@ const services = ref([
         <h2>Popular Services</h2>
       </div>
       <div class="services cSpacing">
-        <ServiceCard
-          class="serviceCard"
+        <HServiceCard
+          class="serviceCard emph"
           v-for="service in services"
           :key="service.id"
           :service="service"
@@ -155,7 +155,7 @@ const services = ref([
 
 .cCard {
   background-color: #f1f5f9;
-  padding: 2rem;
+  padding: 1rem 2rem 1rem;
   flex: 1;
   p {
     font-size: 1.1rem;
@@ -221,13 +221,6 @@ const services = ref([
   transform: translateY(1px);
 }
 
-.dShadow {
-  border-radius: 0.5rem;
-  box-shadow:
-    0 20px 25px -5px rgba(0, 0, 0, 0.1),
-    0 8px 10px -6px rgba(0, 0, 0, 0.1);
-}
-
 .service-section {
   background-color: #f1f5f9;
   display: flex;
@@ -247,11 +240,6 @@ const services = ref([
 
 .serviceCard {
   border-radius: 1rem;
-  transition: transform 0.3s ease;
-}
-
-.serviceCard:hover {
-  transform: scale(1.05);
 }
 
 .services {
