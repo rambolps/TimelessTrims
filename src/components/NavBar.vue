@@ -90,6 +90,10 @@ a.router-link-exact-active > p.route {
   color: #ff9c07;
 }
 
+a[href='/'].router-link-exact-active > p.route {
+  color: #fff;
+}
+
 h1 {
   font-size: 2rem;
   cursor: pointer;
